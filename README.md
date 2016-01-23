@@ -72,4 +72,9 @@ qf --list
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/krmbzds/qf.
 
+## License
+
+The MIT License (MIT)
+Copyright (c) 2016 Kerem Bozdas
+
 [logo]: http://i.imgur.com/PQxBoRI.png
