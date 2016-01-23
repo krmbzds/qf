@@ -23,7 +23,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here!
+```
+Usage: qf [filter]
+
+Options
+ -h, --help       Prints this help page
+ -l, --list       Lists available filters
+
+Examples
+  qf url
+  qf magnet
+  qf creditcard
+  qf creditcard:visa
+
+This application standard input and output.
+```
 
 ## Contributing
 
