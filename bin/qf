@@ -4,4 +4,43 @@
 lib = File.expand_path(File.dirname(__FILE__) + '/../lib')
 $LOAD_PATH.unshift(lib) if File.directory?(lib) && !$LOAD_PATH.include?(lib)
 
-require 'qf'
+require 'rules'
+
+@help = '
+  Usage: qf [filter]
+
+  Options
+   -h, --help       Prints this help page
+   -l, --list       Lists available filters
+
+  Examples
+    qf url
+    qf magnet
+    qf creditcard
+    qf creditcard:visa
+
+  This application standard input and output.
+  
+'
+
+def parse_options
+  arg = ARGV[0]
+
+  if arg
+    rule = Regexp.new RULES[arg]
+    begin
+      STDOUT.puts STDIN.read.scan(rule)
+    rescue
+      print_help
+    end
+
+  else
+    print_help
+  end
+end
+
+def print_help
+  STDOUT.puts @help
+end
+
+parse_options
