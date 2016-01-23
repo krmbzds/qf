@@ -9,12 +9,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kerem Bozdas", "A. Besir Kurtulmus", "Umut Karci"]
   spec.email         = ["krmbzds.github@gmail.com", "besirkurtulmus@gmail.com", "cediddi@gmail.com"]
 
-  spec.summary       = "qf is a ruby gem that extracts specific substrings from a block of text."
+  spec.summary       = "Extract specific substrings from a block of text"
   spec.description   = "qf is a ruby gem that extracts specific substrings from a block of text. Examples of substrings are the following, but not limited to: emails, URIs, magnets links, ipv4, ipv6 addresses, etc."
   spec.homepage      = "http://krmbzds.github.io/qf"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.bindir        = "exe"
+  spec.bindir        = 'bin'
   spec.executables   = ['qf']
   spec.require_paths = ["lib"]
 
