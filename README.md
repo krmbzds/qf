@@ -1,6 +1,7 @@
 # qf
 
 [![Travis](https://img.shields.io/travis/krmbzds/qf.svg)](https://travis-ci.org/krmbzds/qf)
+[![Code Climate](https://codeclimate.com/github/krmbzds/qf/badges/gpa.svg)](https://codeclimate.com/github/krmbzds/qf)
 [![Gem](https://img.shields.io/gem/dv/qf/stable.svg)](https://rubygems.org/gems/qf)
 
 qf is a ruby gem that extracts specific substrings from a block of text. Examples of substrings are the following, but not limited to: emails, URIs, magnets links, ipv4, ipv6 addresses, etc.
