@@ -72,4 +72,4 @@ qf --list
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/krmbzds/qf.
 
-[logo]: http://i.imgur.com/nr7u3xZ.png
+[logo]: http://i.imgur.com/PQxBoRI.png
