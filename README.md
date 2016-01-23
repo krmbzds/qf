@@ -1,4 +1,4 @@
-# qf
+# ![fq-logo][logo] qf
 
 [![Travis](https://img.shields.io/travis/krmbzds/qf.svg)](https://travis-ci.org/krmbzds/qf)
 [![Code Climate](https://codeclimate.com/github/krmbzds/qf/badges/gpa.svg)](https://codeclimate.com/github/krmbzds/qf)
@@ -71,3 +71,5 @@ qf --list
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/krmbzds/qf.
+
+[logo]: http://i.imgur.com/nr7u3xZ.png
