@@ -40,6 +40,34 @@ Examples
 This application standard input and output.
 ```
 
+## Examples
+
+qf behaves like a standard unix application.
+
+Let's say you want to extract URLs from a website:
+
+```sh
+curl kerembozdas.com | qf url
+```
+
+Or credit cards from some csv file:
+
+```sh
+cat customers.csv | qf creditcard
+```
+
+Emails from some contact page:
+
+```sh
+curl www.linux.com/contact | qf email
+```
+
+To see all the options you can use:
+
+```sh
+qf --list
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/krmbzds/qf.
