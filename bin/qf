@@ -17,10 +17,10 @@ require 'rules'
     qf url
     qf magnet
     qf creditcard
-    qf creditcard:visa
+    qf ipv4
 
-  This application standard input and output.
-  
+  This application uses standard input and output.
+
 '
 
 def parse_options
