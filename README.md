@@ -34,6 +34,34 @@ Or install it yourself as:
 
     $ gem install qf
 
+## Examples
+
+**qf** behaves like a standard Unix application.
+
+Let's say you want to extract URLs from a website:
+
+```sh
+curl kerembozdas.com | qf url
+```
+
+Emails from some contact page:
+
+```sh
+curl linux.com/contact | qf email
+```
+
+Or extract and save credit card numbers from a csv file:
+
+```sh
+cat customers.csv | qf creditcard > customer_ccn.txt
+```
+
+To see all the options you can use:
+
+```sh
+qf --list
+```
+
 ## Usage
 
 ```
@@ -50,34 +78,6 @@ Examples
   qf ipv4
 
 This application uses standard input and output.
-```
-
-## Examples
-
-**qf** behaves like a standard Unix application.
-
-Let's say you want to extract URLs from a website:
-
-```sh
-curl kerembozdas.com | qf url
-```
-
-Or extract and save credit card numbers from a csv file:
-
-```sh
-cat customers.csv | qf creditcard > customer_ccn.txt
-```
-
-Emails from some contact page:
-
-```sh
-curl linux.com/contact | qf email
-```
-
-To see all the options you can use:
-
-```sh
-qf --list
 ```
 
 ## Contributing
