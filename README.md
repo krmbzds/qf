@@ -4,10 +4,19 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/krmbzds/qf.svg)](https://codeclimate.com/github/krmbzds/qf)
 [![Gem](https://img.shields.io/gem/dv/qf/stable.svg)](https://rubygems.org/gems/qf)
 
-**qf** is a Ruby gem that extracts specific substrings from a block of text. Examples of substrings are the following, but not limited to: emails, URIs, magnet links, IPv4, IPv6 addresses, etc.
+**qf** is a Ruby gem that extracts specific substrings from a block of text.
 
 **qf** is a productivity tool, it behaves like a standard Unix application and can be chained with other Unix commands.
 
+It helps you extract:
+
+* Emails
+* URLs
+* Magnet Links
+* IPv4 & IPv6 Addressses
+* Credit Card Numbers
+
+.. and **much more** from any stream with flexibility and convenience.
 
 ## Installation
 
