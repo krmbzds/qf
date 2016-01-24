@@ -62,10 +62,10 @@ Let's say you want to extract URLs from a website:
 curl kerembozdas.com | qf url
 ```
 
-Or credit cards from some csv file:
+Or extract and save credit card numbers from a csv file:
 
 ```sh
-cat customers.csv | qf creditcard
+cat customers.csv | qf creditcard > customer_ccn.txt
 ```
 
 Emails from some contact page:
