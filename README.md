@@ -82,7 +82,13 @@ qf --list
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/krmbzds/qf.
+1. Fork it (https://github.com/krmbzds/qf/fork)
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
+
+**Hint:** You can add new rules to the `rules.rb` file.
 
 ## Trivia
 
