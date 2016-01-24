@@ -75,6 +75,11 @@ qf --list
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/krmbzds/qf.
 
+## Trivia
+
+**qf** (pronounced as **/kjuː eff/**) is short for **quick fetch**, or **quick find**.  
+However, similar to how people pronounce **SQL** as **sequel**, the author likes to pronounce **qf** as **queef**. 
+
 ## License
 
 The MIT License (MIT)  
