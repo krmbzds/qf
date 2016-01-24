@@ -4,7 +4,10 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/krmbzds/qf.svg)](https://codeclimate.com/github/krmbzds/qf)
 [![Gem](https://img.shields.io/gem/dv/qf/stable.svg)](https://rubygems.org/gems/qf)
 
-qf is a ruby gem that extracts specific substrings from a block of text. Examples of substrings are the following, but not limited to: emails, URIs, magnets links, ipv4, ipv6 addresses, etc.
+**qf** is a Ruby gem that extracts specific substrings from a block of text. Examples of substrings are the following, but not limited to: emails, URIs, magnet links, IPv4, IPv6 addresses, etc.
+
+**qf** behaves like a standard Unix application and can be chained with other Unix commands.
+
 
 ## Installation
 
@@ -35,14 +38,14 @@ Examples
   qf url
   qf magnet
   qf creditcard
-  qf creditcard:visa
+  qf ipv4
 
-This application standard input and output.
+This application uses standard input and output.
 ```
 
 ## Examples
 
-qf behaves like a standard unix application.
+**qf** behaves like a standard Unix application.
 
 Let's say you want to extract URLs from a website:
 
@@ -59,7 +62,7 @@ cat customers.csv | qf creditcard
 Emails from some contact page:
 
 ```sh
-curl www.linux.com/contact | qf email
+curl linux.com/contact | qf email
 ```
 
 To see all the options you can use:
@@ -74,7 +77,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/krmbzd
 
 ## License
 
-The MIT License (MIT)
+The MIT License (MIT)  
 Copyright (c) 2016 Kerem Bozdas
 
 [logo]: http://i.imgur.com/PQxBoRI.png
